@@ -1,0 +1,202 @@
+.title{
+    color: white;
+    width: 290px;
+    height: 140px;
+    font-weight: 600;
+    border: 0.1px solid #5a5664;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    /* font-family: 'Space Grotesk', sans-serif; */
+    /* font-family: 'Rubik Mono One', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    border-radius: 2px;
+
+
+    flex-wrap: wrap;
+}
+.title a{
+    text-decoration: none;
+    color: white;
+}
+.compl{
+    color: white;
+    width: 290px;
+    height: 60px;
+    margin-top: 30px;
+}
+.title:hover{
+    background: linear-gradient(to bottom right,#242238, #6629FF);
+}
+.rodblock_assem{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    /* background: radial-gradient(circle, rgba(62,70,106,1) 0%, rgba(49,18,77,1) 35%, rgba(10,27,46,1) 100%); */
+
+   
+}
+.two_block img{
+    width: 90px;
+    height: 90px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+
+}
+
+  
+.two_block{
+    padding-left: 10px;
+    padding-top: 10px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #242630;
+    color: white;
+    width: 110%;
+    border-bottom: 1px solid #5a5664;
+    padding: 20px;
+    margin-left: 7%;
+    font-family: 'Space Grotesk', sans-serif;
+    border-radius: 2px;
+
+}
+.twoRod{
+    margin-top: 90px;
+    width: auto;
+}
+.title_acces{
+    width: 314px;
+}
+.price{
+    width: 65px;
+}
+.button button{
+    width: 120px;
+    height: 36px;
+    color: #6629FF;
+    background-color: transparent;
+    border: 1px solid #8888FF;
+    
+}
+.button:hover{
+    background: linear-gradient(to bottom right,#242238, #6629FF)
+}
+.title_acces{
+    display: flex;
+    flex-direction: column;
+}
+.oneSpan{
+   color: #6629FF; 
+   cursor: pointer;
+}
+.tit_span{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tit_img{
+    display: flex;
+    width: 270px;
+    
+}
+.image_acces img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+width: 45px;
+height: 44px;
+}
+.title_acces{
+    margin-left: 15px;
+
+}
+.testDiv{
+    margin-left: 50px;
+    margin-top: 90px;
+   max-height: 800px;
+   width: 800px;
+   background: url("https://www.youtube.com/watch?v=0E44DClsX5Q");
+}
+.switchThreeJs{
+    width: 50px;
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    color: white;
+  
+}
+.switchThreeJs button{
+    color: white;
+
+}
+.sborka_tit{
+width: 200px;
+padding-top: 40px;
+
+
+
+}
+.sborka_tit input{
+height: 40px;
+width: 150px;
+padding: 7px;
+border-radius: 10px;
+margin-top: 20px;
+color: white;
+background-color: #242238;
+
+
+
+}
+.sborka_tit input:focus{
+    width: 200px;
+    border: 1px solid #6629FF;
+}
+.sborka_tit input::placeholder{
+    color: white;
+}
+.sborka_tit button{
+    padding: 8px;
+    color: white;
+    border: 2px solid #6629FF;
+    border-radius: 10px;
+    
+}
+.sborka_tit button:hover{
+    background: linear-gradient(to bottom right,#242238, #6629FF)
+
+}
+.rod_add{
+    justify-content: center;
+display: flex;
+
+}
+
+
+
+
+.switchThreeJs{
+    border: 2px solid #6629FF;
+    padding: 7px;
+    width: 50px;
+margin: 0;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.switchThreeJs:hover{
+    background: linear-gradient(to bottom right,#242238, #6629FF)
+}
+.rrr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(64,24,101,1) 43%, rgba(0,0,0,1) 100%);
+
+
+}
